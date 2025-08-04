@@ -16,20 +16,6 @@ A beginner-friendly real-time **Face Recognition System** built using **OpenCV**
 
 ---
 
-## 🖼️ Demo Preview
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKMt1VVNkHV2PaE/giphy.gif" width="300" />
-  <img src="https://media.giphy.com/media/l3vQX4lXikDBc1zPq/giphy.gif" width="300" />
-</p>
-
-> 🎯 Training & detection snapshots are also included in `<p align="center">
-  <img src="screenshots/ms_dhoni.png" width="300"/>
-  <img src="screenshots/deepika.png" width="300"/>
-</p>`
-
----
-
 ## 🛠️ Tech Stack
 
 | Tool           | Use                          |
@@ -38,24 +24,6 @@ A beginner-friendly real-time **Face Recognition System** built using **OpenCV**
 | OpenCV         | Image processing & ML models  |
 | NumPy          | Matrix operations             |
 | VS Code        | Code Editor                   |
-
----
-
-## 🗂️ Folder Structure
-
-opencv/
-├── haar_face.xml # Haar cascade classifier
-├── img/ # Image data categorized by person
-│ ├── deepika/
-│ ├── ms_dhoni/
-│ └── ...
-├── face_trained.yml # LBPH trained model
-├── faces_train.py # Script to train on images
-├── face_recognition.py # Script to recognize from test image
-├── features.npy # Stored features
-├── labels.npy # Stored labels
-└── README.md
-
 
 ---
 
